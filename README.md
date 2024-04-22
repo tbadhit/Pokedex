@@ -1,16 +1,17 @@
-# tech_test_vokraf_pokedex
+# Tech test vokraf pokedex
 
-A new Flutter project.
+Aplikasi Pokedex ini dikerjakan selama 3 hari dan masih memiliki beberapa bug diantaranya :
+
+- Detail
+    - Beberapa ui belum sesuai design
+    - Belum menambahkan animasi di stats
+    - next button masih akan memiliki bug ketika data sudah mencapai id terakhir (belum di buatkan kondisi)
+- Home
+    - Memiliki bug ketika data list pokemon statusnya tidak sukses loading indicator masih muncul
+    - Fitur pencarian berdasarkan nama & id di halaman home belum bisa berjalan
+    - Beberapa ui belum sesuai design.
+    - Limit data yang di tampilkan saat pertama kali muncul saya menampilkan 20 data alasannya karena pagination yang saya buat sekarang hanya akan ke trigger jika user melakukan scroll
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+run : flutter pub get
